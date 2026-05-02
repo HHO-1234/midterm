@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fdf7f2;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+header h1 {
+    margin: 0;
+    color: #6b4f4f;
+}
+
+header p {
+    margin: 5px 0;
+    color: #888;
+}
+
+nav {
+    background-color: #e8d5c4;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    flex: 1;
+}
+
+nav a {
+    display: block;
+    padding: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #5a3e36;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #d6bfae;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.recipes h2 {
+    text-align: center;
+    color: #6b4f4f;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:hover img {
+    transform: scale(1.05);
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #e8d5c4;
+    color: #5a3e36;
+}
